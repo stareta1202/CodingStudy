@@ -1,5 +1,4 @@
-import UIKit
-
+import Foundation
 
 func solution(_ sizes:[[Int]]) -> Int {
     var width = 0
@@ -15,13 +14,7 @@ func solution(_ sizes:[[Int]]) -> Int {
             height = size[1]
         }
         
-        return height * width
+        
     }
-    
-    print(_sizes)
-    
-    
-    return 0
+    return height * width
 }
-
-solution([[60, 50], [30, 70], [60, 30], [80, 40]])
